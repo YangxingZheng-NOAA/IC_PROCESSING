@@ -21,7 +21,7 @@ fi
 # core data path
 if [[ "${dtg}" -le 2023123100 ]]; then
     core_path=/Permanent/NCEPDEV/cpc-om/Wesley.Ebisuzaki/core/nemsio/ens_00Z
-else [[ "${dtg}" -ge 2024010200 ]]; then
+else [[ "${dtg}" -ge 2024010100 ]]; then
     core_path=/NCEPDEV/cpc-om/Permanent/Leigh.Zhang/core/nemsio/ens_00Z
 fi
 
