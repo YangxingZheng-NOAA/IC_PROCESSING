@@ -114,6 +114,7 @@ cat <<EOF > ${namelist}
  orog_files_target_grid="${OROG_FILES_TARGET_GRID}"
  vcoord_file_target_grid="${VCOORD_FILE}"
  data_dir_input_grid="${COMIN}"
+ atm_files_input_grid="${ATM_FILES_INPUT}"
  sfc_files_input_grid="${SFC_FILES_INPUT}"
  cycle_mon=${dtg:4:2}
  cycle_day=${dtg:6:2}
